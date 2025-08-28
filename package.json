@@ -2,6 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "complete backend project",
+  "type": "module",
   "keywords": [
     "javascript",
     "node.js",
@@ -9,9 +10,12 @@
   ],
   "license": "ISC",
   "author": "Akash Sinha",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
